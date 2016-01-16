@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'MZDDropdownMenu_Example', :exclusive => true do
+  pod "MZDDropdownMenu", :path => "../"
+end
+
+target 'MZDDropdownMenu_Tests', :exclusive => true do
+  pod "MZDDropdownMenu", :path => "../"
+
+  
+end
