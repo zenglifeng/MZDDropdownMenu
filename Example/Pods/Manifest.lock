@@ -1,0 +1,14 @@
+PODS:
+  - MZDDropdownMenu (0.1.0)
+
+DEPENDENCIES:
+  - MZDDropdownMenu (from `../`)
+
+EXTERNAL SOURCES:
+  MZDDropdownMenu:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MZDDropdownMenu: 45d52df2595da581987b627fde652ec8ac6c8803
+
+COCOAPODS: 0.39.0

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "MZDDropdownMenu"
   s.version          = "0.1.0"
-  s.summary          = "A short description of MZDDropdownMenu."
+  s.summary          = "A dropdown menu."
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+                        A dropdown mene that you can customize the content in it
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/MZDDropdownMenu"
+  s.homepage         = "https://github.com/zenglifeng/MZDDropdownMenu"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "lifeng.zeng" => "lifeng.zeng@enai.im" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/MZDDropdownMenu.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/zenglifeng/MZDDropdownMenu.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
