@@ -20,6 +20,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		7B52F2091C4B67AE0099C6AF /* MZDTitleMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B52F2081C4B67AE0099C6AF /* MZDTitleMenuViewController.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9F6EC07BA054FC3DA5CCB049 /* Pods_MZDDropdownMenu_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18F380C1A8252A890671D18 /* Pods_MZDDropdownMenu_Example.framework */; };
 		AB95AB15CBA67A45EE3C3B77 /* Pods_MZDDropdownMenu_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72D2B7FFA7C6596905A4272 /* Pods_MZDDropdownMenu_Tests.framework */; };
@@ -60,6 +61,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6ADC58EF8D5895F9DE8A599C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7B52F2071C4B67AE0099C6AF /* MZDTitleMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MZDTitleMenuViewController.h; sourceTree = "<group>"; };
+		7B52F2081C4B67AE0099C6AF /* MZDTitleMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MZDTitleMenuViewController.m; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		B72D2B7FFA7C6596905A4272 /* Pods_MZDDropdownMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZDDropdownMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D18F380C1A8252A890671D18 /* Pods_MZDDropdownMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZDDropdownMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +138,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* MZDViewController.h */,
 				6003F5A6195388D20070C39A /* MZDViewController.m */,
+				7B52F2071C4B67AE0099C6AF /* MZDTitleMenuViewController.h */,
+				7B52F2081C4B67AE0099C6AF /* MZDTitleMenuViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -390,6 +395,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B52F2091C4B67AE0099C6AF /* MZDTitleMenuViewController.m in Sources */,
 				6003F59E195388D20070C39A /* MZDAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* MZDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

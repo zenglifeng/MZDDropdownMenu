@@ -1,15 +1,15 @@
 {
   "name": "MZDDropdownMenu",
   "version": "0.1.0",
-  "summary": "A short description of MZDDropdownMenu.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MZDDropdownMenu",
+  "summary": "A dropdown menu.",
+  "description": "A dropdown mene that you can customize the content in it",
+  "homepage": "https://github.com/zenglifeng/MZDDropdownMenu",
   "license": "MIT",
   "authors": {
     "lifeng.zeng": "lifeng.zeng@enai.im"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MZDDropdownMenu.git",
+    "git": "https://github.com/zenglifeng/MZDDropdownMenu.git",
     "tag": "0.1.0"
   },
   "platforms": {

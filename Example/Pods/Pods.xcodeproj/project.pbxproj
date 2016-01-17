@@ -7,74 +7,86 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03BBCA9532DE774CFB7F4EB60037C47F /* MZDDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D61F884233B16EA2082810C91FE39C97 /* MZDDropdownMenu-dummy.m */; };
 		0A00661BE0678E77460D0E6900BC78C6 /* Pods-MZDDropdownMenu_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B17D0FA0F003B3CA90E4DB50B9219FD8 /* Pods-MZDDropdownMenu_Example-dummy.m */; };
-		131D687EE7FAEB42B2D9B0A2D9A2E504 /* MZDDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C26C2252CBF5E58CA5DD0D85333DE318 /* MZDDropdownMenu.bundle */; };
+		222B09F3FBC952800B8BDD76CB37A9E7 /* popover_background_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45DC91C9320482F9D23B4436BB5238B5 /* popover_background_right@2x.png */; };
+		234F4222BA8E75443250D919E0B73D02 /* popover_background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2876128A95CFFE4189B7CBBCB1D920C3 /* popover_background@2x.png */; };
+		261CC0597A94C2475420E63145D2648B /* MZDDropdownMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 90A4D3A407DD2DA4A9EEACD4FEBB1F10 /* MZDDropdownMenu-dummy.m */; };
+		27242AFFEFA44E6A4476FE54546F1D36 /* popover_background_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85C81D80C7E3E564AFA542C5CD3450C1 /* popover_background_left@2x.png */; };
 		28A80A0453DF8F286393B7663662303E /* Pods-MZDDropdownMenu_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 688257197D57C6272B8FF4A3C0D36EA7 /* Pods-MZDDropdownMenu_Tests-dummy.m */; };
-		2E771AE4A88A73EC16F334DDACCCD8D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4D3F40B683E7AD7DAF73B7013D0F1A94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		516F60620F996C8650B337D6ABC431D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
-		5525CC62C17CED8A28868F30F6CCAB4A /* MZDDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EE392F51F9A983D7662B4C43521A77A /* MZDDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		667664BA2C1FCA3C712CC3E70280514E /* MZDDropdownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = BCC73A3F1C00EA7AE72A1D13D1A972B7 /* MZDDropdownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6D487DAF35C69572783C4A8861F44244 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8328C2E26AAFF58119029461512CDA4A /* UIView+Extension.h in Headers */ = {isa = PBXBuildFile; fileRef = E55D2B8267961762BA10BB4D7BCE246B /* UIView+Extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D0F18A5B1C978A2DBEC5A77A03598B0 /* Pods-MZDDropdownMenu_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3FC6E6F43C6F4A0A2806D2E55CFC673 /* Pods-MZDDropdownMenu_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB15ECADCDD15829C27A69DF93C0A78E /* MZDDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D57E34DB9F693D095A69804E3C7481 /* MZDDropdownMenu.m */; };
+		C668019548C2AD5CC28C38F39DAAAF41 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 5964FB86C4DA71F0F0172E6A9E313E3F /* UIView+Extension.m */; };
 		D4D8E21BC13A603F4ED3A4B0D85EA453 /* Pods-MZDDropdownMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13F6292EEDDDDF9A0E59373BAD0861CA /* Pods-MZDDropdownMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEE906522A885564C90D086C40A5763A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0EFAA632D32686ADA463784F83535 /* ReplaceMe.m */; };
+		E3FCB36519DB029AF14983DC72C4054A /* MZDDropdownMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C26C2252CBF5E58CA5DD0D85333DE318 /* MZDDropdownMenu.bundle */; };
+		EC0DBFDACD05FCDEC78C2068CBBB053D /* MZDDropdownMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3DA84E0DC107DD2088189C1D4E1EB4E /* MZDDropdownMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0A0BA9F2853F75A05D4D5AE152CAA97A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 95BDE06EA135AAC3E5C79974B95D5DE3;
-			remoteInfo = "MZDDropdownMenu-MZDDropdownMenu";
-		};
 		77FC13EE6C6DF363245C03FF5D6B54D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED209021D821D59B683C3F764D188B7B;
+			remoteGlobalIDString = 9F599058C941CB42C0D3E18DCEDC2B0C;
 			remoteInfo = MZDDropdownMenu;
 		};
 		93A19113C470B4AD7A9D745AC07BFDC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED209021D821D59B683C3F764D188B7B;
+			remoteGlobalIDString = 9F599058C941CB42C0D3E18DCEDC2B0C;
 			remoteInfo = MZDDropdownMenu;
+		};
+		EFBDEACE4D6D805AD330E880AA8CB21C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B387AB0FC78A1328956A92FCFBAF5AF;
+			remoteInfo = "MZDDropdownMenu-MZDDropdownMenu";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05123AAF1DAC21183A79236383FDF192 /* MZDDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZDDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
 		0BF64DD00309F172091B995795A2038D /* Pods-MZDDropdownMenu_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZDDropdownMenu_Example.modulemap"; sourceTree = "<group>"; };
-		0C489F1A6F8762235360D13F957F3F32 /* MZDDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZDDropdownMenu.xcconfig; sourceTree = "<group>"; };
 		13F6292EEDDDDF9A0E59373BAD0861CA /* Pods-MZDDropdownMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZDDropdownMenu_Example-umbrella.h"; sourceTree = "<group>"; };
+		2876128A95CFFE4189B7CBBCB1D920C3 /* popover_background@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "popover_background@2x.png"; sourceTree = "<group>"; };
 		374270F132543D706142F22C5D922381 /* Pods-MZDDropdownMenu_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZDDropdownMenu_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		38D57E34DB9F693D095A69804E3C7481 /* MZDDropdownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MZDDropdownMenu.m; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		43E5F748095E3BECFCA8F82278571844 /* Pods-MZDDropdownMenu_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MZDDropdownMenu_Tests.modulemap"; sourceTree = "<group>"; };
+		45DC91C9320482F9D23B4436BB5238B5 /* popover_background_right@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "popover_background_right@2x.png"; sourceTree = "<group>"; };
 		49383880758F908176FFDB07CD82D45F /* Pods-MZDDropdownMenu_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZDDropdownMenu_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		549A17A9520BB7B5CADE5DB95E74A595 /* Pods-MZDDropdownMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZDDropdownMenu_Tests-resources.sh"; sourceTree = "<group>"; };
-		6040368B9B73FB4947CFC68EB13038CB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5964FB86C4DA71F0F0172E6A9E313E3F /* UIView+Extension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		671F36946500CB2700721E56AD0E5A7D /* Pods-MZDDropdownMenu_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZDDropdownMenu_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		674D5EC2A4F7DA99FD74695A7E454D40 /* Pods-MZDDropdownMenu_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZDDropdownMenu_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		688257197D57C6272B8FF4A3C0D36EA7 /* Pods-MZDDropdownMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZDDropdownMenu_Tests-dummy.m"; sourceTree = "<group>"; };
 		6D9F1504B55E9867257738F80405CA79 /* Pods-MZDDropdownMenu_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZDDropdownMenu_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		76C0FEC2BA59D98EEC3EDAAD051E7CA1 /* Pods-MZDDropdownMenu_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZDDropdownMenu_Example-frameworks.sh"; sourceTree = "<group>"; };
+		85C81D80C7E3E564AFA542C5CD3450C1 /* popover_background_left@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "popover_background_left@2x.png"; sourceTree = "<group>"; };
+		869652D26C41FD64E1CEEFB08DB05D83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8862A370BBFBFE03923A8E245E7B7699 /* Pods-MZDDropdownMenu_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MZDDropdownMenu_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		888E142AC81BE9A775D4786808968B1D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B4B5C93537BD544E1902F307EBC1DEF /* Pods-MZDDropdownMenu_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MZDDropdownMenu_Example-resources.sh"; sourceTree = "<group>"; };
+		90A4D3A407DD2DA4A9EEACD4FEBB1F10 /* MZDDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZDDropdownMenu-dummy.m"; sourceTree = "<group>"; };
 		977C0A04FF68F2CC6BF91EC74EB0EA48 /* Pods-MZDDropdownMenu_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZDDropdownMenu_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9EE392F51F9A983D7662B4C43521A77A /* MZDDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZDDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		9BA771335A212A1E609B16D8ADD9464F /* MZDDropdownMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MZDDropdownMenu.xcconfig; sourceTree = "<group>"; };
 		A3FC6E6F43C6F4A0A2806D2E55CFC673 /* Pods-MZDDropdownMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MZDDropdownMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B17D0FA0F003B3CA90E4DB50B9219FD8 /* Pods-MZDDropdownMenu_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MZDDropdownMenu_Example-dummy.m"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BCC73A3F1C00EA7AE72A1D13D1A972B7 /* MZDDropdownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MZDDropdownMenu.h; sourceTree = "<group>"; };
 		C26C2252CBF5E58CA5DD0D85333DE318 /* MZDDropdownMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MZDDropdownMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAA0AEBB0A407752B82FFC72388BB3EF /* Pods_MZDDropdownMenu_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZDDropdownMenu_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35CBD9379E6E46E105FC0A7157AC4B9 /* Pods-MZDDropdownMenu_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MZDDropdownMenu_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D37094A46650249E8E6B0541BA592CBB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D61F884233B16EA2082810C91FE39C97 /* MZDDropdownMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MZDDropdownMenu-dummy.m"; sourceTree = "<group>"; };
-		D7C0EFAA632D32686ADA463784F83535 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		D93DC6636ED8A5529083B9D12C457548 /* MZDDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZDDropdownMenu.modulemap; sourceTree = "<group>"; };
+		D3DA84E0DC107DD2088189C1D4E1EB4E /* MZDDropdownMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZDDropdownMenu-umbrella.h"; sourceTree = "<group>"; };
+		E1AEB4F51DCC753DB5E07BDD7B04B542 /* MZDDropdownMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MZDDropdownMenu.modulemap; sourceTree = "<group>"; };
+		E4D6B7BA3D8F55FB7088B7AF7B844117 /* MZDDropdownMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MZDDropdownMenu-prefix.pch"; sourceTree = "<group>"; };
+		E55D2B8267961762BA10BB4D7BCE246B /* UIView+Extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		EB042D74C464FA300277B4C5CFFB85B3 /* Pods-MZDDropdownMenu_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MZDDropdownMenu_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ECFA34FBC34B655EA33D8F869446E834 /* Pods_MZDDropdownMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MZDDropdownMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCDC777C679C7153BDCD8258819051B0 /* MZDDropdownMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MZDDropdownMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,14 +101,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		684A3E65BBE622A5E00DCC941EF40EAE /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2E771AE4A88A73EC16F334DDACCCD8D4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6EC72DC4AB33FE02F1AA68610DC5A55A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -105,7 +109,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A236ECE67667B0D04D8A3970B16241BC /* Frameworks */ = {
+		AD09413CBB04ABAB13CBAA584A63F6F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3F40B683E7AD7DAF73B7013D0F1A94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D47CB986D3819B1C5C62038117893B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,22 +127,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		02E9AF4659646C710ED4428F2A679817 /* Pod */ = {
+		42D6722A2058FBE7A2ADFC467FB58528 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				842EA604232B7794BB36522C2B817116 /* Classes */,
+				869652D26C41FD64E1CEEFB08DB05D83 /* Info.plist */,
+				E1AEB4F51DCC753DB5E07BDD7B04B542 /* MZDDropdownMenu.modulemap */,
+				9BA771335A212A1E609B16D8ADD9464F /* MZDDropdownMenu.xcconfig */,
+				90A4D3A407DD2DA4A9EEACD4FEBB1F10 /* MZDDropdownMenu-dummy.m */,
+				E4D6B7BA3D8F55FB7088B7AF7B844117 /* MZDDropdownMenu-prefix.pch */,
+				D3DA84E0DC107DD2088189C1D4E1EB4E /* MZDDropdownMenu-umbrella.h */,
 			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		6A4D066BBB0751AC7521CECA35093401 /* MZDDropdownMenu */ = {
-			isa = PBXGroup;
-			children = (
-				02E9AF4659646C710ED4428F2A679817 /* Pod */,
-				7E317ABC65A122EAAF486C6576BAAB1B /* Support Files */,
-			);
-			name = MZDDropdownMenu;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MZDDropdownMenu";
 			sourceTree = "<group>";
 		};
 		739E91149CB361F8168F45C1D07E2A4F /* Pods-MZDDropdownMenu_Tests */ = {
@@ -155,33 +163,11 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				AD1230E88664B75C54763A4E0F067CBF /* Development Pods */,
+				D5B0625AEBF29CE9BA18350C865A3FB1 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CAECD1966C4F5BC9369676D0B0511044 /* Products */,
 				9C906681024157A7EA0AE302F2026100 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E317ABC65A122EAAF486C6576BAAB1B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6040368B9B73FB4947CFC68EB13038CB /* Info.plist */,
-				D93DC6636ED8A5529083B9D12C457548 /* MZDDropdownMenu.modulemap */,
-				0C489F1A6F8762235360D13F957F3F32 /* MZDDropdownMenu.xcconfig */,
-				D61F884233B16EA2082810C91FE39C97 /* MZDDropdownMenu-dummy.m */,
-				05123AAF1DAC21183A79236383FDF192 /* MZDDropdownMenu-prefix.pch */,
-				9EE392F51F9A983D7662B4C43521A77A /* MZDDropdownMenu-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MZDDropdownMenu";
-			sourceTree = "<group>";
-		};
-		842EA604232B7794BB36522C2B817116 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D7C0EFAA632D32686ADA463784F83535 /* ReplaceMe.m */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		9668A4168435743614ACC84036276297 /* Pods-MZDDropdownMenu_Example */ = {
@@ -211,12 +197,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AD1230E88664B75C54763A4E0F067CBF /* Development Pods */ = {
+		AE84FAECEB597B641A8CE4FBB38411EF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6A4D066BBB0751AC7521CECA35093401 /* MZDDropdownMenu */,
+				CD4487C54725D0499711E98EE93D3019 /* Pod */,
 			);
-			name = "Development Pods";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBC633FC99E7F9171E4867C7C821CDD6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2876128A95CFFE4189B7CBBCB1D920C3 /* popover_background@2x.png */,
+				85C81D80C7E3E564AFA542C5CD3450C1 /* popover_background_left@2x.png */,
+				45DC91C9320482F9D23B4436BB5238B5 /* popover_background_right@2x.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -225,6 +221,14 @@
 				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD0BE15581560E23FF2835264B53D37A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FC9657E60C9C4255F8F38C51F46392BB /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
@@ -246,6 +250,44 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CD4487C54725D0499711E98EE93D3019 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBC633FC99E7F9171E4867C7C821CDD6 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		D5B0625AEBF29CE9BA18350C865A3FB1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5F670D3678C4AD8D996A4AF02E89F1D /* MZDDropdownMenu */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F5F670D3678C4AD8D996A4AF02E89F1D /* MZDDropdownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				BD0BE15581560E23FF2835264B53D37A /* Pod */,
+				AE84FAECEB597B641A8CE4FBB38411EF /* Resources */,
+				42D6722A2058FBE7A2ADFC467FB58528 /* Support Files */,
+			);
+			name = MZDDropdownMenu;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC9657E60C9C4255F8F38C51F46392BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BCC73A3F1C00EA7AE72A1D13D1A972B7 /* MZDDropdownMenu.h */,
+				38D57E34DB9F693D095A69804E3C7481 /* MZDDropdownMenu.m */,
+				E55D2B8267961762BA10BB4D7BCE246B /* UIView+Extension.h */,
+				5964FB86C4DA71F0F0172E6A9E313E3F /* UIView+Extension.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -257,19 +299,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0EC5B645F53E7EA46825E84C7A6BB522 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5525CC62C17CED8A28868F30F6CCAB4A /* MZDDropdownMenu-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A00B67B82C3164DD7C7705169027BD1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9D0F18A5B1C978A2DBEC5A77A03598B0 /* Pods-MZDDropdownMenu_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A13B0F26065E17926DBC6E2D034BE5D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0DBFDACD05FCDEC78C2068CBBB053D /* MZDDropdownMenu-umbrella.h in Headers */,
+				667664BA2C1FCA3C712CC3E70280514E /* MZDDropdownMenu.h in Headers */,
+				8328C2E26AAFF58119029461512CDA4A /* UIView+Extension.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,13 +338,13 @@
 			productReference = ECFA34FBC34B655EA33D8F869446E834 /* Pods_MZDDropdownMenu_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		95BDE06EA135AAC3E5C79974B95D5DE3 /* MZDDropdownMenu-MZDDropdownMenu */ = {
+		8B387AB0FC78A1328956A92FCFBAF5AF /* MZDDropdownMenu-MZDDropdownMenu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 83AE433681E189C808401E9CB50CA411 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu-MZDDropdownMenu" */;
+			buildConfigurationList = 7633F888DB8043CED25C931D267ED824 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu-MZDDropdownMenu" */;
 			buildPhases = (
-				1872FF3E267F1584EDBED82B23DAC0E9 /* Sources */,
-				A236ECE67667B0D04D8A3970B16241BC /* Frameworks */,
-				A75776CD4C7B9E089C0467ADED025CC6 /* Resources */,
+				5605618F67AEDECF52F85FAEFFB858A3 /* Sources */,
+				B1D47CB986D3819B1C5C62038117893B /* Frameworks */,
+				F776DCEC84D988547C238944669F7D19 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -310,6 +354,25 @@
 			productName = "MZDDropdownMenu-MZDDropdownMenu";
 			productReference = C26C2252CBF5E58CA5DD0D85333DE318 /* MZDDropdownMenu.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		9F599058C941CB42C0D3E18DCEDC2B0C /* MZDDropdownMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 529B02AF1710C79D103F4110651DC8B3 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu" */;
+			buildPhases = (
+				590F518B68F0AE850DFEF41CB7A24B45 /* Sources */,
+				AD09413CBB04ABAB13CBAA584A63F6F0 /* Frameworks */,
+				BCEB244F22C7023733A322FB0E66BE30 /* Resources */,
+				A13B0F26065E17926DBC6E2D034BE5D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ED3EC613F23C65B4290757F62CC3F90 /* PBXTargetDependency */,
+			);
+			name = MZDDropdownMenu;
+			productName = MZDDropdownMenu;
+			productReference = FCDC777C679C7153BDCD8258819051B0 /* MZDDropdownMenu.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 		B0A6E3FF83EF127C0FBEE5AE506A33E0 /* Pods-MZDDropdownMenu_Example */ = {
 			isa = PBXNativeTarget;
@@ -327,25 +390,6 @@
 			name = "Pods-MZDDropdownMenu_Example";
 			productName = "Pods-MZDDropdownMenu_Example";
 			productReference = CAA0AEBB0A407752B82FFC72388BB3EF /* Pods_MZDDropdownMenu_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		ED209021D821D59B683C3F764D188B7B /* MZDDropdownMenu */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3DC68066B11A2A27CBB131A548D8F661 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu" */;
-			buildPhases = (
-				ADCC831D4BB58801B35BB6B60D52CD59 /* Sources */,
-				684A3E65BBE622A5E00DCC941EF40EAE /* Frameworks */,
-				FBDF0DA0BEFFA61430CD4057E3B36B46 /* Resources */,
-				0EC5B645F53E7EA46825E84C7A6BB522 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7B5971B81176B67DC2C4291584754011 /* PBXTargetDependency */,
-			);
-			name = MZDDropdownMenu;
-			productName = MZDDropdownMenu;
-			productReference = FCDC777C679C7153BDCD8258819051B0 /* MZDDropdownMenu.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -369,8 +413,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED209021D821D59B683C3F764D188B7B /* MZDDropdownMenu */,
-				95BDE06EA135AAC3E5C79974B95D5DE3 /* MZDDropdownMenu-MZDDropdownMenu */,
+				9F599058C941CB42C0D3E18DCEDC2B0C /* MZDDropdownMenu */,
+				8B387AB0FC78A1328956A92FCFBAF5AF /* MZDDropdownMenu-MZDDropdownMenu */,
 				B0A6E3FF83EF127C0FBEE5AE506A33E0 /* Pods-MZDDropdownMenu_Example */,
 				08D8C17B9486F47CB8D41266981BA94E /* Pods-MZDDropdownMenu_Tests */,
 			);
@@ -378,28 +422,41 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A75776CD4C7B9E089C0467ADED025CC6 /* Resources */ = {
+		BCEB244F22C7023733A322FB0E66BE30 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3FCB36519DB029AF14983DC72C4054A /* MZDDropdownMenu.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBDF0DA0BEFFA61430CD4057E3B36B46 /* Resources */ = {
+		F776DCEC84D988547C238944669F7D19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				131D687EE7FAEB42B2D9B0A2D9A2E504 /* MZDDropdownMenu.bundle in Resources */,
+				234F4222BA8E75443250D919E0B73D02 /* popover_background@2x.png in Resources */,
+				27242AFFEFA44E6A4476FE54546F1D36 /* popover_background_left@2x.png in Resources */,
+				222B09F3FBC952800B8BDD76CB37A9E7 /* popover_background_right@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1872FF3E267F1584EDBED82B23DAC0E9 /* Sources */ = {
+		5605618F67AEDECF52F85FAEFFB858A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		590F518B68F0AE850DFEF41CB7A24B45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				261CC0597A94C2475420E63145D2648B /* MZDDropdownMenu-dummy.m in Sources */,
+				AB15ECADCDD15829C27A69DF93C0A78E /* MZDDropdownMenu.m in Sources */,
+				C668019548C2AD5CC28C38F39DAAAF41 /* UIView+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,34 +476,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ADCC831D4BB58801B35BB6B60D52CD59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				03BBCA9532DE774CFB7F4EB60037C47F /* MZDDropdownMenu-dummy.m in Sources */,
-				DEE906522A885564C90D086C40A5763A /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1ED3EC613F23C65B4290757F62CC3F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "MZDDropdownMenu-MZDDropdownMenu";
+			target = 8B387AB0FC78A1328956A92FCFBAF5AF /* MZDDropdownMenu-MZDDropdownMenu */;
+			targetProxy = EFBDEACE4D6D805AD330E880AA8CB21C /* PBXContainerItemProxy */;
+		};
 		311B0AAA3CAF1189EFDA1A997A33C037 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZDDropdownMenu;
-			target = ED209021D821D59B683C3F764D188B7B /* MZDDropdownMenu */;
+			target = 9F599058C941CB42C0D3E18DCEDC2B0C /* MZDDropdownMenu */;
 			targetProxy = 93A19113C470B4AD7A9D745AC07BFDC0 /* PBXContainerItemProxy */;
-		};
-		7B5971B81176B67DC2C4291584754011 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "MZDDropdownMenu-MZDDropdownMenu";
-			target = 95BDE06EA135AAC3E5C79974B95D5DE3 /* MZDDropdownMenu-MZDDropdownMenu */;
-			targetProxy = 0A0BA9F2853F75A05D4D5AE152CAA97A /* PBXContainerItemProxy */;
 		};
 		8D4CA014EE22CC588A1CCB8D151BFB47 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MZDDropdownMenu;
-			target = ED209021D821D59B683C3F764D188B7B /* MZDDropdownMenu */;
+			target = 9F599058C941CB42C0D3E18DCEDC2B0C /* MZDDropdownMenu */;
 			targetProxy = 77FC13EE6C6DF363245C03FF5D6B54D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -555,33 +603,6 @@
 			};
 			name = Release;
 		};
-		1BC078CD1169779EB0AA65511FA1E747 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C489F1A6F8762235360D13F957F3F32 /* MZDDropdownMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MZDDropdownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MZDDropdownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		478360FCE1DE8E244E9D01F53DF21F9F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 671F36946500CB2700721E56AD0E5A7D /* Pods-MZDDropdownMenu_Tests.release.xcconfig */;
@@ -612,15 +633,57 @@
 			};
 			name = Release;
 		};
-		8C80C0E14E27017C7E6F183DD5928C9A /* Release */ = {
+		679F53802FDB4AD871AD7CC72841360A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C489F1A6F8762235360D13F957F3F32 /* MZDDropdownMenu.xcconfig */;
+			baseConfigurationReference = 9BA771335A212A1E609B16D8ADD9464F /* MZDDropdownMenu.xcconfig */;
 			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZDDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = MZDDropdownMenu;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86FB753D326B631307D3A6B1D304A2C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA771335A212A1E609B16D8ADD9464F /* MZDDropdownMenu.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MZDDropdownMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MZDDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -654,9 +717,21 @@
 			};
 			name = Debug;
 		};
-		C5202C4F19FE6358F71E09D1D23EB0C0 /* Debug */ = {
+		D3A9DC36D4C047F815EFB75AA4B5E6D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C489F1A6F8762235360D13F957F3F32 /* MZDDropdownMenu.xcconfig */;
+			baseConfigurationReference = 9BA771335A212A1E609B16D8ADD9464F /* MZDDropdownMenu.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = MZDDropdownMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D98F9FA7443CFF73E7EEFB03BFE3A9BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BA771335A212A1E609B16D8ADD9464F /* MZDDropdownMenu.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = MZDDropdownMenu;
@@ -696,33 +771,6 @@
 			};
 			name = Debug;
 		};
-		FDCD13987B18D810E9C9349B684D2CDF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0C489F1A6F8762235360D13F957F3F32 /* MZDDropdownMenu.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MZDDropdownMenu/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MZDDropdownMenu/MZDDropdownMenu.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MZDDropdownMenu;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -744,11 +792,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3DC68066B11A2A27CBB131A548D8F661 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu" */ = {
+		529B02AF1710C79D103F4110651DC8B3 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1BC078CD1169779EB0AA65511FA1E747 /* Debug */,
-				FDCD13987B18D810E9C9349B684D2CDF /* Release */,
+				679F53802FDB4AD871AD7CC72841360A /* Debug */,
+				86FB753D326B631307D3A6B1D304A2C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7633F888DB8043CED25C931D267ED824 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu-MZDDropdownMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98F9FA7443CFF73E7EEFB03BFE3A9BE /* Debug */,
+				D3A9DC36D4C047F815EFB75AA4B5E6D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -758,15 +815,6 @@
 			buildConfigurations = (
 				C27D445900800D05BA30EFD30163AD1E /* Debug */,
 				478360FCE1DE8E244E9D01F53DF21F9F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		83AE433681E189C808401E9CB50CA411 /* Build configuration list for PBXNativeTarget "MZDDropdownMenu-MZDDropdownMenu" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5202C4F19FE6358F71E09D1D23EB0C0 /* Debug */,
-				8C80C0E14E27017C7E6F183DD5928C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
